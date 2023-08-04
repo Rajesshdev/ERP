@@ -1,0 +1,37 @@
+.Container{
+    height: 68vh;
+    overflow: auto;
+  }
+.row {
+    display: flex;
+    gap: 15%;
+    flex-wrap: wrap!important;
+    padding: 0 30px;
+    width: 100%;
+  }
+ 
+  .row_main {
+    flex-grow: 1;
+  }
+  .Img{
+    flex-basis: 40%;
+    flex-grow: 0.5;
+  }
+  .Col_flex{
+    flex-basis: 40%;
+    flex-grow: 0.7;
+    display: grid;
+    grid-template-columns: 70% 0;
+    margin-left: -5%;
+  }
+  
+  .Col {
+    display: grid;
+    grid-template-columns: 30% 60% ; 
+    gap: 9%;
+  }
+  
+  .Col_main {
+    display: flex;
+  }
+  
